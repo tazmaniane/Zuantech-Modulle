@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="@dimen/_10sdp"
+    android:orientation="vertical">
+
+    <com.google.android.material.card.MaterialCardView
+        style="@style/CardViewShadowStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:focusable="false"
+        app:cardCornerRadius="@dimen/_12sdp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minWidth="@dimen/_200sdp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingHorizontal="@dimen/_16sdp"
+                android:background="@color/grey_lightest"
+                android:paddingVertical="@dimen/_10sdp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tvTitle"
+                    style="@style/Text_H3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:minHeight="@dimen/_18sdp"
+                    android:paddingBottom="@dimen/_1sdp"
+                    android:textSize="@dimen/_13sdp"
+                    android:text="Masukkan Jumlah" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnMinus"
+                    style="@style/MaterialButtonPrimary"
+                    android:layout_width="@dimen/_32sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:insetTop="@dimen/_1sdp"
+                    android:insetBottom="@dimen/_1sdp"
+                    android:minWidth="@dimen/_30sdp"
+                    app:iconGravity="textStart"
+                    android:gravity="center"
+                    app:iconPadding="0dp"
+                    app:icon="@drawable/ic_minus"
+                    android:text="" />
+
+                <EditText
+                    android:id="@+id/etQuantity"
+                    style="@style/EdittextPrimary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_marginHorizontal="@dimen/_3sdp"
+                    android:minWidth="@dimen/_80sdp"
+                    android:gravity="center"
+                    android:hint="0"
+                    android:inputType="number"
+                    android:textSize="@dimen/_13sdp"
+                    android:maxLines="1" />
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnPlus"
+                    style="@style/MaterialButtonPrimary"
+                    android:layout_width="@dimen/_32sdp"
+                    android:layout_height="@dimen/_30sdp"
+                    android:insetTop="@dimen/_1sdp"
+                    android:insetBottom="@dimen/_1sdp"
+                    android:minWidth="@dimen/_30sdp"
+                    app:iconGravity="textStart"
+                    android:gravity="center"
+                    app:iconPadding="0dp"
+                    app:icon="@drawable/ic_add"
+                    android:text="" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:paddingHorizontal="@dimen/_10sdp"
+                android:paddingBottom="@dimen/_10sdp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnNegative"
+                    style="@style/MaterialButtonWhiteStrokePrimary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_weight="1"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:fontFamily="@font/manrope_bold"
+                    android:paddingHorizontal="@dimen/_20sdp"
+                    android:insetTop="@dimen/_2sdp"
+                    android:insetBottom="@dimen/_2sdp"
+                    android:minWidth="@dimen/_70sdp"
+                    android:textSize="@dimen/_10sdp"
+                    android:text="Batal" />
+
+                <View
+                    android:layout_width="@dimen/_10sdp"
+                    android:layout_height="0dp"/>
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnPositive"
+                    style="@style/MaterialButtonPrimary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_weight="1"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:fontFamily="@font/manrope_bold"
+                    android:paddingHorizontal="@dimen/_20sdp"
+                    android:insetTop="@dimen/_2sdp"
+                    android:insetBottom="@dimen/_2sdp"
+                    android:minWidth="@dimen/_70sdp"
+                    android:textSize="@dimen/_10sdp"
+                    android:text="Lanjut" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>

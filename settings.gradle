@@ -1,0 +1,3 @@
+rootProject.name = "Zuantech Module"
+include ':app'
+include ':zuantechmodule'

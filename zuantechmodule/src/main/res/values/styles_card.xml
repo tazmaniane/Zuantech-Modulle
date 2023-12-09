@@ -1,0 +1,44 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="CardViewRootStyle" parent="Widget.MaterialComponents.CardView">
+        <item name="background">@android:color/white</item>
+        <item name="cardBackgroundColor">@color/white</item>
+        <item name="rippleColor">@color/primary_base</item>
+        <item name="android:layout_marginTop">@dimen/_5sdp</item>
+        <item name="android:layout_marginBottom">@dimen/_5sdp</item>
+        <item name="android:layout_marginLeft">@dimen/_5sdp</item>
+        <item name="android:layout_marginStart">@dimen/_5sdp</item>
+        <item name="android:layout_marginEnd">@dimen/_5sdp</item>
+        <item name="android:layout_marginRight">@dimen/_5sdp</item>
+        <item name="cardCornerRadius">@dimen/_8sdp</item>
+        <item name="cardElevation">@dimen/_5sdp</item>
+        <item name="strokeColor">@color/grey_light</item>
+        <item name="strokeWidth">@dimen/_1sdp</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <style name="CardViewShadowStyle" parent="CardViewRootStyle">
+        <item name="background">@android:color/white</item>
+        <item name="cardBackgroundColor">@color/white</item>
+        <item name="strokeWidth">0dp</item>
+    </style>
+
+    <style name="CardViewFlatStyle" parent="CardViewRootStyle">
+        <item name="background">@android:color/white</item>
+        <item name="cardBackgroundColor">@color/white</item>
+        <item name="strokeWidth">0dp</item>
+        <item name="cardElevation">0dp</item>
+        <item name="android:layout_marginTop">0dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:layout_marginStart">0dp</item>
+        <item name="android:layout_marginEnd">0dp</item>
+        <item name="android:layout_marginRight">0dp</item>
+    </style>
+
+    <style name="CardViewFlatShadowStyle" parent="CardViewRootStyle">
+        <item name="background">@android:color/white</item>
+        <item name="cardBackgroundColor">@color/white</item>
+    </style>
+</resources>

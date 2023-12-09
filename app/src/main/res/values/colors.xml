@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4e4a49</color>
+    <color name="colorPrimaryDark">#333A42</color>
+    <color name="colorAccent">#2196F3</color>
+
+    <color name="primary_base">#2196F3</color>
+    <color name="primary_dark">#1B71B5</color>
+    <color name="primary_light">#D5EDFF</color>
+    <color name="primary_lighter">#E5F3FF</color>
+    <color name="primary_lightest">#EAF6FF</color>
+    <color name="secondary_base">#4e4a49</color>
+    <color name="secondary_light">#8F8A88</color>
+    <color name="red_dark">#AF2F27</color>
+    <color name="red_base">#CB3A31</color>
+    <color name="red_light">#FF6D6D</color>
+    <color name="red_lighter">#FF9898</color>
+    <color name="red_lightest">#FFEEEE</color>
+    <color name="green_dark">#2F8733</color>
+    <color name="green_base">#4CAF50</color>
+    <color name="green_lightest">#B8FFF5</color>
+    <color name="yellow_dark">#D3C22E</color>
+    <color name="yellow_base">#FDE44A</color>
+    <color name="yellow_lightest">#FFFADC</color>
+    <color name="grey_dark">#B4B6B8</color>
+    <color name="grey_base">#CDCFD0</color>
+    <color name="grey_light">#E3E5E5</color>
+    <color name="grey_lighter">#F2F4F5</color>
+    <color name="grey_lightest">#F7F9FA</color>
+    <color name="orange_base">#FF972A</color>
+    <color name="blue_dark">#143568</color>
+    <color name="blue_base">#1DA1F2</color>
+    <color name="blue_light">#E0ECFF</color>
+
+    <color name="black_base">#000000</color>
+    <color name="black">#333333</color>
+    <color name="black_secondary">#8C333333</color>
+    <color name="transparent">#8C333333</color>
+    <color name="black_3">#757575</color>
+    <color name="white_transclude">#80FFFFFF</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="grey_3">#828282</color>
+    <color name="grey_4">#BDBDBD</color>
+    <color name="grey_5">#F2F4F5</color>
+    <color name="grey_6">#F7F9F8</color>
+
+    <color name="violet">#5D5FEF</color>
+    <color name="violet_lightest">#F8F8FF</color>
+
+    <color name="colorKuningPrimary">#FDE44A</color>
+    <color name="colorKuning">#FEE44B</color>
+    <color name="colorTrans">#8c000000</color>
+    <color name="colorAbuMuda">#f1f1f2</color>
+    <color name="colorAbuDark">#4e4a49</color>
+    <color name="colorAbuGelap">#333A42</color>
+    <color name="colorAccentLight">#e1e1e1</color>
+    <color name="colorMerah">#F30D16</color>
+    <color name="colorHijau">#0b7d3f</color>
+    <color name="colorRedSelected">#ff969e</color>
+
+    <color name="colorSearch">#5A6978</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorGray">#343F4B</color>
+    <color name="colorAbu">#BDBDBD</color>
+    <color name="colorLangit">#EAEEF4</color>
+    <color name="colorGrey">#F5F5F5</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorRed">#FF0005</color>
+    <color name="colorYellow">#FFE500</color>
+    <color name="colorBlue">#00A6FF</color>
+    <color name="colorBiru">#1059A5</color>
+    <color name="colorGreen">#2FA700</color>
+    <color name="colorGreenLight">#F1FEF5</color>
+    <color name="colorOrange">#FFFC6611</color>
+    <color name="colorOrangeLight">#FFF1D4</color>
+    <color name="demo_dark_transparent">#24000000</color>
+    <color name="colorMarun">#9F1C26</color>
+    <color name="colorNavy">#143568</color>
+
+</resources>

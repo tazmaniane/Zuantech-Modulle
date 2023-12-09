@@ -1,0 +1,36 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="TextInputLayoutStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+        <item name="boxBackgroundMode">none</item>
+        <item name="hintEnabled">false</item>
+        <item name="startIconTint">@color/grey_base</item>
+        <item name="endIconTint">@color/grey_base</item>
+        <item name="hintAnimationEnabled">false</item>
+    </style>
+
+    //auto complete
+    <style name="TextInputLayoutStylePrimary" parent="TextInputLayoutStyle">
+        <item name="hintAnimationEnabled">false</item>
+        <item name="boxBackgroundMode">outline</item>
+        <item name="hintEnabled">false</item>
+        <item name="boxStrokeColor">@color/color_box_stroke_textinputlayout</item>
+        <item name="boxStrokeWidth">@dimen/_1sdp</item>
+        <item name="boxCornerRadiusTopStart">@dimen/_10sdp</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/_10sdp</item>
+        <item name="boxCornerRadiusBottomStart">@dimen/_10sdp</item>
+        <item name="boxCornerRadiusBottomEnd">@dimen/_10sdp</item>
+    </style>
+
+    //auto complete
+    <style name="TextInputLayoutDropdownStyle" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu">
+        <item name="hintAnimationEnabled">false</item>
+        <item name="hintEnabled">false</item>
+        <item name="boxStrokeColor">@color/color_box_stroke_textinputlayout</item>
+        <item name="boxStrokeWidth">@dimen/_1sdp</item>
+        <item name="boxCornerRadiusTopStart">@dimen/_10sdp</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/_10sdp</item>
+        <item name="boxCornerRadiusBottomStart">@dimen/_10sdp</item>
+        <item name="boxCornerRadiusBottomEnd">@dimen/_10sdp</item>
+    </style>
+
+</resources>

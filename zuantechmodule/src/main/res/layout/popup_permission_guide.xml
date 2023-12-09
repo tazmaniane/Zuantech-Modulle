@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingHorizontal="@dimen/_16sdp">
+
+    <com.google.android.material.card.MaterialCardView
+        style="@style/CardViewShadowStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/_5sdp"
+        android:clickable="false"
+        android:focusable="false"
+        app:cardCornerRadius="@dimen/_12sdp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:minWidth="@dimen/_200sdp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/primary_base"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:paddingHorizontal="@dimen/_16sdp"
+                android:paddingVertical="@dimen/_16sdp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_50sdp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/ic_app_setting"
+                    app:tint="#80FFFFFF" />
+
+                <TextView
+                    android:id="@+id/tvTitle"
+                    style="@style/Text_H3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:minHeight="@dimen/_18sdp"
+                    android:paddingBottom="@dimen/_1sdp"
+                    android:text="Izin Diperlukan"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/_13sdp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvMessage"
+                style="@style/Text_Sub3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_16sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:gravity="center"
+                android:minLines="2"
+                android:textSize="@dimen/_11sdp"
+                tools:text="Message" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_16sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <!--                <com.google.android.material.button.MaterialButton-->
+                <!--                    android:id="@+id/btnNegative"-->
+                <!--                    style="@style/MaterialButtonWhiteStrokePrimary"-->
+                <!--                    android:layout_width="wrap_content"-->
+                <!--                    android:layout_height="@dimen/_35sdp"-->
+                <!--                    android:layout_margin="@dimen/_5sdp"-->
+                <!--                    android:fontFamily="@font/manrope_bold"-->
+                <!--                    android:paddingHorizontal="@dimen/_20sdp"-->
+                <!--                    android:insetTop="@dimen/_2sdp"-->
+                <!--                    android:insetBottom="@dimen/_2sdp"-->
+                <!--                    android:minWidth="@dimen/_70sdp"-->
+                <!--                    android:textSize="@dimen/_10sdp"-->
+                <!--                    android:text="Batal" />-->
+
+                <!--                <View-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:layout_height="0dp"-->
+                <!--                    android:layout_weight="1"/>-->
+
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnPositive"
+                    style="@style/MaterialButtonPrimary"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/_35sdp"
+                    android:layout_margin="@dimen/_5sdp"
+                    android:fontFamily="@font/manrope_bold"
+                    android:insetTop="@dimen/_2sdp"
+                    android:insetBottom="@dimen/_2sdp"
+                    android:minWidth="@dimen/_100sdp"
+                    android:paddingHorizontal="@dimen/_20sdp"
+                    android:text="Oke"
+                    android:textSize="@dimen/_10sdp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>

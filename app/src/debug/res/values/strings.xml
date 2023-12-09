@@ -1,0 +1,7 @@
+<resources>
+    <string name="ad_application_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+<!--    <string name="ad_unit_interestitial_id">ca-app-pub-3940256099942544/1033173712</string>-->
+    <string name="ad_unit_native_id">ca-app-pub-3940256099942544/2247696110</string>
+
+</resources>

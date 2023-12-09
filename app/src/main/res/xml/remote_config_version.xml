@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<defaultsMap>
+    <entry>
+        <key>monitoring_version_code_latest</key>
+        <value>100</value>
+    </entry>
+    <entry>
+        <key>monitoring_update_type</key>
+        <value>FLEXIBLE</value>
+    </entry>
+</defaultsMap>

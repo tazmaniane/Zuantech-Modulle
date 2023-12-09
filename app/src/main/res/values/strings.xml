@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">KUHP - KUHAP - KUHPerdata</string>
+    <string name="ad_application_id">ca-app-pub-6807060364039305~4288352575</string>
+    <string name="ad_unit_id">ca-app-pub-6807060364039305/9736136280</string>
+<!--    <string name="ad_unit_interestitial_id">ca-app-pub-6807060364039305/8226133204</string>-->
+    <string name="ad_unit_native_id">ca-app-pub-6807060364039305/9055595531</string>
+    <string name="error_message">Tidak dapat memuat video, silakan coba lagi nanti.</string>
+</resources>

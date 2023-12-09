@@ -1,0 +1,47 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:windowAnimationStyle">@style/CustomActivityAnimation</item>
+<!--        <item name="android:statusBarColor">@color/colorAccent</item>-->
+    </style>
+
+    <!--animasi slide activity-->
+    <style name="CustomActivityAnimation" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/slide_in_right</item>
+        <item name="android:activityOpenExitAnimation">@anim/slide_out_left</item>
+        <item name="android:activityCloseEnterAnimation">@anim/slide_in_left</item>
+        <item name="android:activityCloseExitAnimation">@anim/slide_out_right</item>
+    </style>
+
+    <!--untuk ukuran tulisan di tabs menu-->
+    <style name="TabLayoutStyle">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <!-- font judul -->
+    <style name="judul">
+        <item name="android:fontFamily">Montserrat</item>
+    </style>
+
+    <!-- font sub judul -->
+    <style name="subjudul">
+        <item name="android:fontFamily">Lato</item>
+    </style>
+
+    <!--rating bar-->
+    <style name="customRatingBar"
+        parent="android:style/Widget.Material.RatingBar">
+        <item name="android:maxWidth">50dp</item>
+        <item name="android:minWidth">50dp</item>
+    </style>
+
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlActivated">@color/colorPrimary</item>
+    </style>
+
+</resources>
